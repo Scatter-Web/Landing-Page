@@ -16,8 +16,8 @@ ARG APP_PORT=8080
 ENV APP_PORT=${APP_PORT}
 WORKDIR /app
 
-# Install express for serving static files
-RUN npm install --silent express
+# Install express v4 for serving static files (avoids path-to-regexp v6 issues)
+RUN npm install --silent express@4.18.2
 
 # copy the built app from builder
 COPY --from=builder /app/build ./build
