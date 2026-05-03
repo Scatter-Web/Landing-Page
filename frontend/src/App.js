@@ -66,14 +66,14 @@ function App() {
           <h2 className="section-title">Research</h2>
           <hr className="divider" />
           <p className="monospace">
-            TAL TAL TAL TAL TAL<br />
-            TALTAL TAL TAL TAL TAL<br />
-            TALTAL TAL TAL TAL TAL<br />
-            TALTAL TAL TAL TAL TAL<br />
-            TALTAL TAL TAL TAL TAL<br />
-            TALTAL TAL TAL TAL TAL<br />
-            TALTAL TAL TAL TAL TAL<br />
-            TAL
+            Why Post-Quantum Cryptography (PQC) is Urgent Now:<br />
+            (Harvest Now, Decrypt Later) Attackers are already intercepting and storing encrypted data. Their goal is to hold onto it until quantum computers are powerful enough to break the encryption (a date called Q-Day).<br />
+            Transitioning global infrastructure to new, quantum-resistant algorithm takes years. Hardware, software, and protocols must all be updated before quantum computers mature.<br />
+
+            Recent Breakthroighs in Neutral Atom Technology:<br />
+            In march of 2026 there was a massive, sudden acceleration in the projected timeline for quantum computers to break standard encryption (like RSA and ECC).<br />
+            Previously, scientists believed it would take millions of qubits to build a Cryptographically Relevant Quantum Computer (CRQC). Recent research from Caltech and Oratomic demonstrated that highly efficient error correction could reduce this requirement to as few as 10000 to 20000 qubits. This breakthrough relies on neutral-atom quantum computing. Unlike older superconducting chips where qubits are static, neutral atoms can be physically moved across the array using laser beams (optical tweezers). This allows distant qubits to interact directly, making error correction vastly more efficient.<br />
+            Because the qubit threshold to break encryption just dropped by two orders of magnitude, the theoretical timeline for Q-Day shifted from decades away to potentially within the next 5 to 10 years, creating a vulnerability crisis for legacy systems.<br />
           </p>
         </section>
       </main>
