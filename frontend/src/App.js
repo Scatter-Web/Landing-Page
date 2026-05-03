@@ -6,14 +6,20 @@ function App() {
     <div className="container">
       <header className="header">
         <div className="logo-placeholder">
-          {/*  */}
-          <div className="dummy-img">LOGO</div>
+          <img
+            src="/Camada_1.svg"
+            alt="ScatterWeb logo"
+            className="logo-img"
+          />
         </div>
         <h1 className="main-title">SCATTERWEB</h1>
         <button className="download-btn">Download</button>
         <div className="platform-icon">
-          {/*  */}
-          <div className="dummy-img-small">Linux</div>
+          <img
+            src="/fluent-mdl2_linux-logo-32.svg"
+            alt="Linux platform icon"
+            className="platform-logo"
+          />
         </div>
       </header>
 
@@ -22,10 +28,11 @@ function App() {
           <h2 className="section-title">Mission Statement</h2>
           <hr className="divider" />
           <p>
-            The future looks grim for the internet as a whole. Corporations lie to, and bribe our governments to implement predatory biometric identity verification laws that do nothing to address the real problems and only place even more power in the hands of these giants. For background see <a href="https://techoversight.org/2025/07/29/bloomberg-meta-google-lobbyists-fight-to-pass-the-buck-on-kids-online-safety/">this Tech Oversight report</a>. "Security" firms immediately leak and lose said biometric data — see <a href="https://stateofsurveillance.org/news/discord-age-verification-id-biometric-privacy-2026/">this State of Surveillance article</a>.
-          </p>
+            The future looks grim for the internet as a whole.
+          </p>  
           <p>
-            The giants of our digital world made and still make their fortunes by selling our personal data and controlling the digital places we use for modern political and social discourse.
+            Corporations lie to, and bribe our governments to implement predatory biometric identity verification laws that do nothing to address the real problems and only place even more power in the hands of these giants. For background see <a href="https://techoversight.org/2025/07/29/bloomberg-meta-google-lobbyists-fight-to-pass-the-buck-on-kids-online-safety/">this Tech Oversight report</a>.<br/>"Security" firms immediately leak and lose said biometric data — see <a href="https://stateofsurveillance.org/news/discord-age-verification-id-biometric-privacy-2026/">this State of Surveillance article</a>.
+            <br/>The giants of our digital world made and still make their fortunes by selling our personal data and controlling the digital places we use for modern political and social discourse.
           </p>
           <p>
             This project was born out of spite as a protest against this state of affairs, and in futile but defiant opposition against the unstoppable dark future we are marching towards. These conflicting feeling can be defined with a clear mission statement:
