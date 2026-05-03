@@ -22,9 +22,7 @@ function App() {
           <h2 className="section-title">Mission Statement</h2>
           <hr className="divider" />
           <p>
-            The future looks grim for the internet as a whole. Corporations lie to, and bribe our governments to implement predatory biometric identity verification laws that do nothing to address the real problems and only place even more power in the hands of these giants. <br />
-            <a href="https://techoversight.org/2025/07/29/bloomberg-meta-google-lobbyists-fight-to-pass-the-buck-on-kids-online-safety/">https://techoversight.org/2025/07/29/bloomberg-meta-google-lobbyists-fight-to-pass-the-buck-on-kids-online-safety/</a> <br />
-            "Security" Firms immediately leak and lose said biometric data. <a href="https://stateofsurveillance.org/news/discord-age-verification-id-biometric-privacy-2026/">https://stateofsurveillance.org/news/discord-age-verification-id-biometric-privacy-2026/</a>
+            The future looks grim for the internet as a whole. Corporations lie to, and bribe our governments to implement predatory biometric identity verification laws that do nothing to address the real problems and only place even more power in the hands of these giants. For background see <a href="https://techoversight.org/2025/07/29/bloomberg-meta-google-lobbyists-fight-to-pass-the-buck-on-kids-online-safety/">this Tech Oversight report</a>. "Security" firms immediately leak and lose said biometric data — see <a href="https://stateofsurveillance.org/news/discord-age-verification-id-biometric-privacy-2026/">this State of Surveillance article</a>.
           </p>
           <p>
             The giants of our digital world made and still make their fortunes by selling our personal data and controlling the digital places we use for modern political and social discourse.
@@ -32,9 +30,9 @@ function App() {
           <p>
             This project was born out of spite as a protest against this state of affairs, and in futile but defiant opposition against the unstoppable dark future we are marching towards. These conflicting feeling can be defined with a clear mission statement:
           </p>
-          <div className="blockquote">
-            <p>&gt; [!Mission Statement]</p>
-            <p>&gt; We want to prove that it is possible and reasonable to demand a free, anonymous, encrypted, accessible and user-friendly messaging system, where users manage their own data and metadata.</p>
+          <div className="callout mission">
+            <div className="callout-title">Mission Statement</div>
+            <p>We want to prove that it is possible and reasonable to demand a free, anonymous, encrypted, accessible and user-friendly messaging system, where users manage their own data and metadata.</p>
           </div>
           <p>
             We intend to dispel the old lie that being harvested for our data is a just price to pay for convenience. <br />
