@@ -13,7 +13,14 @@ function App() {
           />
         </div>
         <h1 className="main-title">SCATTERWEB</h1>
-        <button className="download-btn">Download</button>
+        <a
+          href="https://github.com/Scatter-Web/Scatter-Web-Project"
+          target="_blank"
+          rel="noreferrer"
+          className="download-btn"
+        >
+          Download
+        </a>
         <div className="platform-icon">
           <img
             src="/fluent-mdl2_linux-logo-32.svg"
