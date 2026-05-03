@@ -29,6 +29,11 @@ body {
   margin-bottom: 20px;
 }
 
+.platform-logo {
+  display: inline-block;
+  margin-top: 6px;
+}
+
 .main-title {
   font-weight: 700; /* Inter Bold */
   font-size: 3rem;
